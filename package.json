@@ -1,26 +1,27 @@
 {
-  "name": "graphql-nodejs-mongodb-react-booking-event",
-  "version": "1.0.0",
-  "description": "Event booking API + Application",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VardanMelik/graphql-nodejs-mongodb-react.git"
-  },
-  "author": "Vardan Meliksetyan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VardanMelik/graphql-nodejs-mongodb-react/issues"
-  },
-  "homepage": "https://github.com/VardanMelik/graphql-nodejs-mongodb-react#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
-  }
+    "name": "graphql-nodejs-mongodb-react-booking-event",
+    "version": "1.0.0",
+    "description": "Event booking API + Application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VardanMelik/graphql-nodejs-mongodb-react.git"
+    },
+    "author": "Vardan Meliksetyan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VardanMelik/graphql-nodejs-mongodb-react/issues"
+    },
+    "homepage": "https://github.com/VardanMelik/graphql-nodejs-mongodb-react#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0"
+    }
 }
